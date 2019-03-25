@@ -15,8 +15,8 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
-          <router-link class="navbar-link" to="/">Home</router-link>
-          <router-link class="navbar-link" to="/about">About</router-link>
+          <router-link class="navbar-item" to="/">Home</router-link> 
+          <router-link class="navbar-item" to="/about">About</router-link>
 
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
@@ -59,7 +59,9 @@
 </template>
 
 <script>
+import bulma from 'bulma'
+
 export default {
-  name: 'Navbar',
+  name: 'Navbar'
 }
 </script>
