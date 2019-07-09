@@ -29,7 +29,7 @@ export default {
 header {
   position: relative;
   background-color: black;
-  height: 50vh;
+  height: 60vh;
   min-height: 25rem;
   width: 100%;
   overflow: hidden;

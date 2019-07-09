@@ -2,7 +2,7 @@
   <div>
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="https://bulma.io">
+        <a class="navbar-item" href="/">
           <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
         </a>
 
@@ -17,6 +17,7 @@
         <div class="navbar-start">
           <router-link class="navbar-item" to="/">Home</router-link> 
           <router-link class="navbar-item" to="/about">About</router-link>
+          <router-link class="navbar-item" to="/contact">Contact</router-link>
 
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
@@ -59,7 +60,6 @@
 </template>
 
 <script>
-import bulma from 'bulma'
 
 export default {
   name: 'Navbar'
