@@ -15,10 +15,12 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
+        </div>
+
+        <div class="navbar-end">
           <router-link class="navbar-item" to="/">Home</router-link> 
           <router-link class="navbar-item" to="/about">About</router-link>
           <router-link class="navbar-item" to="/contact">Contact</router-link>
-
           <div class="navbar-item has-dropdown is-hoverable">
             <a class="navbar-link">
               More
@@ -37,19 +39,6 @@
               <hr class="navbar-divider">
               <a class="navbar-item">
                 Report an issue
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="navbar-end">
-          <div class="navbar-item">
-            <div class="buttons">
-              <a class="button is-primary">
-                <strong>Sign up</strong>
-              </a>
-              <a class="button is-light">
-                Log in
               </a>
             </div>
           </div>
